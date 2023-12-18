@@ -114,7 +114,7 @@ def send_email(user_id):
 
 def send_email_to_user(user):
     msg = Message('Subject: User Information',
-                  sender='deeprajarya11@example.com',  #  You can replace with your email
+                  sender='deeprajarya11@gmail.com',  #  You can replace with your email
                   recipients=[user.email])
     msg.body = f"Hello {user.name},\n\nYour user information:\nName: {user.name}\nPhone Number: {user.phone_number}\nEmail: {user.email}\nHobbies: {user.hobbies}"
     
