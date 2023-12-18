@@ -53,25 +53,6 @@ def delete(user_id):
 
 
 
-@app.route('/edit_user/<int:user_id>', methods=['GET', 'POST'])
-def edit_user(user_id):
-    with app.app_context():
-        user = User.query.get(user_id)
-
-        if request.method == 'POST':
-            user.name = request.form['name']
-            user.phone_number = request.form['phone_number']
-            user.email = request.form['email']
-            user.hobbies = request.form['hobbies']
-            db.session.commit()
-
-            return redirect(url_for('index'))
-
-    return render_template('edit.html', user=user)
-
-
-
-# ... (Your existing code)
 
 @app.route('/edit/<int:user_id>', methods=['GET', 'POST'])
 def edit(user_id):
