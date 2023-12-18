@@ -50,12 +50,14 @@ Access the /add route to add new users.
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot%20(129).png)
-*Caption: Front-end .*
+![Screenshot 1](screenshots/Screenshot%20(133).png)
+*Caption: Front-end -- User Data added .*
 
-![Screenshot 2](screenshots/Screenshot%20(130).png)
-*Caption: adding data to db.*
+![Screenshot 2](screenshots/Screenshot%20(134).png)
+*Caption: Updating Harry data to db.*
 
+![Screenshot 2](screenshots/Screenshot%20(132).png)
+*Caption: Deleting Harry data from db.*
 
 ## Contributing
 Contributions are welcome! Reach me out at mailforarya@gmail.com
