@@ -1,3 +1,0 @@
-heroku
-heroku login
-git init
