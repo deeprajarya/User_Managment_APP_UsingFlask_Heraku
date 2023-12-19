@@ -87,5 +87,5 @@ https://usermanagmentapp-a0643dd2c584.herokuapp.com/
 *Caption: Deleting Harry data from db.*
 
 ## Contributing
-Contributions are welcome! Reach me out at mailforarya@gmail.com
+Contributions are welcome! Reach me out at https://www.linkedin.com/in/deepraj-arya-3060631b7/
 
