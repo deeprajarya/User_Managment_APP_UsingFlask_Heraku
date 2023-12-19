@@ -76,8 +76,8 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Replace with your email provider
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'example@gmail.com'  # Replace with your email
-app.config['MAIL_PASSWORD'] = 'password'  # Replace with your email password
+app.config['MAIL_USERNAME'] = 'arya.studio.111@gmail.com'  # Replace with your email
+app.config['MAIL_PASSWORD'] = 'Arya@111222000'  # Replace with your email password
 
 mail = Mail(app)
 
@@ -95,7 +95,7 @@ def send_email(user_id):
 
 def send_email_to_user(user):
     msg = Message('Subject: User Information',
-                  sender='deeprajarya11@gmail.com',  #  You can replace with your email
+                  sender='arya.studio.111@gmail.com',  #  You can replace with your email
                   recipients=[user.email])
     msg.body = f"Hello {user.name},\n\nYour user information:\nName: {user.name}\nPhone Number: {user.phone_number}\nEmail: {user.email}\nHobbies: {user.hobbies}"
     
