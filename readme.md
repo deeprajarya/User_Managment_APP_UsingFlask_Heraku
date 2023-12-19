@@ -48,6 +48,33 @@ Visit the root route (/) to view the user information table.
 Access the /add route to add new users.
 
 
+## Deployement
+
+1. Use git for version control and deployment to Heroku. Follow the following commands
+
+    ```
+    heroku                                        # check if heroku is working file
+    heroku login                                  # login to heroku
+    ```
+    
+    ```
+    git init
+    git add .
+    git commit -m "initial commit"
+   git remote -v                                   # check remote
+    ```
+    
+    ```
+    heroku create usermanagmentapp                 # Replace with your app-name
+    git push heroku main/master
+    ```
+
+## App Link
+
+Go through the following link to use the application
+https://usermanagmentapp-a0643dd2c584.herokuapp.com/
+
+
 ## Screenshots
 
 ![Screenshot 1](screenshots/Screenshot%20(133).png)
