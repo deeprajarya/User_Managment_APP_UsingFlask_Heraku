@@ -4,7 +4,7 @@ User Management App
 
 ## Description
 
-This project is a simple web application for managing user information. It uses Flask for the backend, SQLAlchemy for database operations, and a basic HTML form for the frontend.
+This project is a simple web application for managing user information. It uses Flask for the backend, SQLAlchemy for database operations, and a basic HTML form for the frontend. Application was deployed to Heroku.
 
 ## Table of Contents
 
