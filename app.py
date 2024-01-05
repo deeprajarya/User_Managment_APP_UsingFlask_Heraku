@@ -75,14 +75,15 @@ def edit(user_id):
 
 
 
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Replace with your email provider
-app.config['MAIL_PORT'] = 587
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'  
+app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'arya.studio.111@gmail.com'  # Replace with your email
-app.config['MAIL_PASSWORD'] = 'Arya@111222000'  # Replace with your email password
+app.config['MAIL_USERNAME'] = 'mail_id'  # Replace with your email
+app.config['MAIL_PASSWORD'] = 'mail_password'  # Replace with your email password
 
 mail = Mail(app)
+
 
 
 
