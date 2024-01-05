@@ -72,7 +72,8 @@ Access the /add route to add new users.
 ## App Link
 
 Go through the following link to use the application
-https://usermanagmentapp-a0643dd2c584.herokuapp.com/
+https://user-managment-app.onrender.com/                          # Uploaded on Render
+https://usermanagmentapp-a0643dd2c584.herokuapp.com/              # Uploaded on Heroku
 
 
 ## Screenshots
